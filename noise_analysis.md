@@ -31,5 +31,5 @@ Each additional gate in a quantum circuit introduces potential noise, as physica
 - **Fewer Gates**: Less chance of errors as fewer operations are performed.
 - **More Gates**: As the number of gates increases, the cumulative noise grows, introducing more errors into the final result.
 
-_Example Simulations:_
-- Compare circuits with fewer and more gates, and show how the noise scales with each.
+<!--_Example Simulations:_
+- Compare circuits with fewer and more gates, and show how the noise scales with each.-->
