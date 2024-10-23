@@ -1,39 +1,43 @@
-# Quantum Addition with Noise Simulation
+# Quantum Simulation Project
 
-This project demonstrates the effect of noise on quantum addition using Quantum Fourier Transform (QFT). The simulation is done using Qiskit, a Python framework for quantum computing. Noise models are applied to simulate real-world errors in quantum circuits.
+This repository contains a quantum simulation project that implements quantum addition using the Quantum Fourier Transform (QFT). The main goal of this project is to explore the effects of noise on quantum circuits while performing addition operations. The quantum sum is computed for two integers, and the simulation captures how various noise models impact the accuracy of the results.
 
-## Features
+## Table of Contents
 
-- **Quantum Fourier Transform (QFT)**: Used to perform the quantum addition of two classical numbers.
-- **Noise Simulation**: Demonstrates the impact of quantum noise on the results using various noise models.
-- **Transpiling**: Converts circuits to use basic gate sets compatible with quantum hardware.
-- **Measurement**: Simulates the outcome of the quantum addition process with and without noise.
+1. [Overview](#overview)
+2. [Requirements](#requirements)
+3. [Usage](#usage)
+4. [Features](#features)
+5. [License](#license)
+6. [Acknowledgments](#acknowledgments)
+
+## Overview
+
+The core component of this project is a quantum circuit that utilizes QFT to perform the addition of two integers. The implementation incorporates a noise model to simulate real-world quantum hardware conditions, allowing for an analysis of how noise affects the output of the quantum addition operation. The project includes functions for constructing the quantum circuit, applying noise, and analyzing the results.
 
 ## Requirements
 
 - Qiskit
-- Python 3.7+
+- NumPy
+- Jupyter Notebook
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/quantum-noise-simulation.git
-2. Install required dependencies:
-   ```bash
-    pip install -r requirements.txt
 ## Usage
 
-To run this project, follow the steps below:
+To run the quantum simulation, open the Jupyter Notebook file and execute the cells. The simulation demonstrates the quantum addition process, the implementation of QFT, and the analysis of noise effects on the results.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-2. Navigate to the project directory:
-   ```bash
-   cd YOUR-REPO-NAME
-3. (Optional) Set up a virtual environment:
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows use: env\Scripts\activate
+## Features
+
+- Implementation of Quantum Fourier Transform for quantum addition
+- Simulation of noise effects on quantum circuits
+- Analysis of output counts to evaluate the impact of noise
+- Tools to modify and experiment with different noise parameters
+  
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code, but please provide appropriate credit to the original author.
+
+## Acknowledgments
+
+Special thanks to the Qiskit community for their resources and support in understanding quantum computing concepts.
+
 
