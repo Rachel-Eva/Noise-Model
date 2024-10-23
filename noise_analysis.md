@@ -12,8 +12,10 @@ Noise in quantum circuits causes decoherence and errors in the output. Here's a 
 - **With Noise**: The addition of noise introduces errors, causing deviations in the output probabilities. Some states that were not present in the ideal case may appear due to noise.
 
 _Visualizations:_
-- Plot results comparing noisy vs. non-noisy outputs.
-  
+Plot results comparing noisy vs. non-noisy outputs.
+  ![Plot visualization](https://github.com/Rachel-Eva/Noise-Model/blob/main/plot.png)
+
+
 ## 2. Is there a way to decrease the effect of noise?
 
 Yes, several techniques can help reduce the impact of noise:
